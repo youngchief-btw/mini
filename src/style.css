@@ -1,0 +1,62 @@
+* {
+	font-family: sans-serif;
+	/* background-color: black; */
+	color: black;
+	text-align: center;
+}
+
+ul {
+	display: table;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	list-style-position: inside;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.mcl-row {
+  display: flex;
+}
+
+.mcl-column-50 {
+  flex: 50%;
+}
+
+hr {
+	width: 25%;
+    border-color: black;
+    background-color: black;
+}
+
+:root {
+    background: rgb(170,238,187);
+    background: -moz-linear-gradient(90deg, rgba(170,238,187,1) 0%, rgba(0,153,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(170,238,187,1) 0%, rgba(0,153,255,1) 100%);
+    background: linear-gradient(90deg, rgba(170,238,187,1) 0%, rgba(0,153,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aaeebb",endColorstr="#0099ff",GradientType=1);
+}
+
+ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+}
