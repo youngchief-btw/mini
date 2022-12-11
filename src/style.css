@@ -19,9 +19,9 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	text-decoration:underline;
-}
+/* a:hover {
+	text-decoration: underline;
+} */
 
 body {
     margin: 0px;
@@ -52,11 +52,33 @@ hr {
 }
 
 ul li {
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 3px solid #85CCFF;
+    border-radius: 10px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: transparent;
+    color: white;
+}
+
+ul li:hover {
+    background-color: #85CCFF;
+}
+
+li + li{
+    margin: 5px 0;
+}
+
+footer p {
+    color: grey;
+    text-align: center;
+}
+
+footer p a {
+    color: grey;
+}
+
+footer p a:hover {
+    text-decoration: underline;
 }
